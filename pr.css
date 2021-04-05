@@ -1,0 +1,311 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.block1{
+	color: #C0C0C0;
+	font-size:150%;
+	text-align:center;
+}
+.back{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    background: url(img/gun.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+
+
+}
+.zaic{
+	background-image: url(img/zaicev.jpg)  ;
+	width: 300px;
+    height: 300px;
+    float: right;
+    margin: 20px;
+   
+    background-size: cover;
+	
+	
+}
+.info{
+	font-size:17px;
+	color:white;
+	opacity: 1;
+	
+	text-align: center;
+}
+.btn{
+	display: inline-block;
+    vertical-align: top;
+    margin:0 40px;
+    color:#fff;
+    text-decoration: none;
+    font-family:cursive;
+    /*border:2px solid #000;
+    padding:5px 20px;*/
+    
+}
+
+.btn:after{
+	content:'';
+	display: block;
+	height: 3px;
+	background-color: #40E0D0;
+	
+	position: absolute;
+	top: 100%;
+	left:0;
+	z-index: 1;
+	
+}
+.btn:hover{
+	/*color:#40E0D0;*/
+	color:#fff;
+	text-decoration: underline;
+	
+}
+.btn:hover:after{
+	
+}
+.header{
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 1000;
+}
+.logo{
+	font-size:30px;
+	font-weight: 710;
+	color:#fff;
+	font-family:cursive;
+	margin:10px 10px;
+}
+.nav{
+	margin-top:20px;
+	font-size:20px;
+	text-decoration: none;
+	color:#fff;
+	font-family :'Avantgarde',sans-serif;
+}
+.header_head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/*надписи cent u overword*/
+.cent{
+	font-size:25px;
+	color:#fff;
+	
+	font-family: Verdana , sans-serif;
+	
+	padding:10px 20px;
+	border:2px;
+	color:#fff;
+}
+.overword{
+	font-size:25px;
+	color:#fff;
+	
+	font-family:cursive;
+}
+/*back2 второй фон*/
+.back2{
+	background: url(img/vov4.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+    text-align:center;
+
+}
+.zzz{
+	font-size:20px;
+	color:#fff;
+	font-family:cursive;
+	position:absolute;
+    width:100%;
+    top:120%;
+    text-align:center;
+}
+/* линия
+.underline{
+	width:100%;
+	height:50px;
+	background-color: #808080;
+	opacity: 0.9;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+*/
+.leftimg{
+	float: right; 
+    margin: 17px 17px 17px 17px;
+    margin-top:50px;
+}
+
+.op{
+	/*display: flex;
+    justify-content: center;
+	text-align: center;
+	flex-direction: column;*/
+	margin-top:5%;
+	color:white;
+	font-size:28px;
+	font-family:Segoe script , sans-serif;
+
+}
+.about{
+	color:white;
+	font-size:28px;
+	font-family:  cursive;
+}
+.back3{
+	background: url(img/nepxaevo.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    
+	width:50%;
+	height: 80vh;
+	
+    
+}
+.xxx{
+	text-align: right;
+}
+.neho{
+	background-image: url(img/nepxaevo.jpg);
+	width: 400px;
+    height: 400px;
+    float: left;
+    margin: 60px;
+    background-size: cover;
+	padding:10px;
+
+}
+.back4{
+	background: url(img/ok.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+    text-align:center;
+}
+.zhlobin{
+	background-image: url(img/zhlobin.jpg);
+	width: 400px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    background-size: cover;
+    text-align: center;
+}
+.back5{
+	background: url(img/knn.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+    text-align:center;
+}
+.kenin{
+	background-image: url(img/kenin.jpg);
+	width: 400px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    background-size: cover;
+    text-align: center;
+}
+.back6{
+	background: url(img/zamoc.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+    text-align:center;
+}
+.zamoc{
+	background-image: url(img/stalin.jpg);
+	width: 550px;
+    height: 400px;
+    float: left;
+   /* margin: 20px;*/
+    background-size: cover;
+    text-align: center;
+}
+.back7{
+	background: url(img/reih.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+    text-align:center;
+}
+.reih{
+	background-image: url(img/berlin.jpg);
+	width: 550px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    background-size: cover;
+    text-align: center;
+}
+.back8{
+	background: url(img/pep.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+    text-align:center;
+}
+.vitebsk{
+	background-image: url(img/vitya.jpg);
+	width: 550px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    background-size: cover;
+    text-align: center;
+}
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+.h{
+	color:white;
+	margin-top:50px;
+}
+/*вторая страница */
+.scnd-back{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    background: url(img/gun.jpg) center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+}
